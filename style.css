@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: #f6cfd4;
+  color: #7a4a4a;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.envelope-container {
+  text-align: center;
+}
+
+.name {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.envelope {
+  width: 250px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.envelope:hover {
+  transform: scale(1.05);
+}
+
+/* Letter page */
+.letter-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.letter-box {
+  background: #fff0f2;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.buttons button {
+  padding: 14px 28px;
+  margin: 10px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* YES page */
+.yes-page {
+  text-align: center;
+  padding: 40px;
+}
+
+.gif-grid img {
+  width: 150px;
+  margin: 10px;
+}
+
+.love-letter {
+  margin-top: 30px;
+  background: #fff5f6;
+  padding: 30px;
+  border-radius: 20px;
+}
+
